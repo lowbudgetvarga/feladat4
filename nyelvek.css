@@ -1,6 +1,17 @@
-﻿a
+﻿body{
+	color: #00008b;
+	background-color: #ffd700;
+}
+
+a
 {
 	color: red;
+}
+
+#f_vonal{
+	width: 800px;
+	height: 6px;
+	background-color: green;
 }
 
 h1
@@ -11,6 +22,14 @@ h1
 	font-style: italic;
 }
 
+h1, h2{
+	text-transform: uppercase;
+	color: red;
+}
+
+ul{
+	list-style-image: url('list.png');
+}
 
 p
 {
